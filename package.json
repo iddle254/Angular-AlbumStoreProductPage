@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "./node_modules/.bin/mocha ./src/spec/mocha-specs --recursive --reporter spec",
     "test:part2": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part2/ --recursive --reporter spec",
     "test:part3": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part3/ --recursive --reporter spec",
